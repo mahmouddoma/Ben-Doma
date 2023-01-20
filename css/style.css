@@ -19,16 +19,14 @@ body {
 .facebook {
     background-color: var(--bg-face);
     padding: 15px 0;
-    width: 700px;
-    margin-left: 250px;
+    margin-left: 150px;
     cursor: pointer;
     box-shadow: 15px 10px 15px #77bad0;
 }
 .twitter {
     background-color: var(--bg-twitter);
     padding: 15px 0;
-    width: 700px;
-    margin-left: 250px;
+    margin-left: 150px;
     cursor: pointer;
     box-shadow: 15px 10px 15px #77bad0;
 
@@ -41,7 +39,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );    
     padding: 15px 0;
     width: 700px;
-    margin-left: 250px;
+    margin-left: 150px;
     cursor: pointer;
     box-shadow: 15px 10px 15px #77bad0;
 }
@@ -49,7 +47,7 @@ body {
     background-color: var(--bg-github);
     padding: 15px 0;
     width: 700px;
-    margin-left: 250px;
+    margin-left: 150px;
     cursor: pointer;
     box-shadow: 15px 10px 15px #77bad0;
 
@@ -58,7 +56,7 @@ body {
     background-color: var(--bg-linkedin);
     padding: 15px 0;
     width: 700px;
-    margin-left: 250px;
+    margin-left: 150px;
     cursor: pointer;
     box-shadow: 15px 10px 15px #77bad0;
 
