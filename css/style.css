@@ -16,6 +16,9 @@ body {
     border: 3px solid black;
     box-shadow: 15px 10px 15px #52686f;
 }
+.social-links a{
+    text-decoration: none;
+}
 .facebook {
     background-color: var(--bg-face);
     padding: 15px 0;
