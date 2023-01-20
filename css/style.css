@@ -61,3 +61,12 @@ body {
     box-shadow: 15px 10px 15px #77bad0;
 
 }
+@media (max-width: 576px) { 
+    .facebook,
+    .github,
+    .instagram,
+    .linkedin,
+    .twitter {
+        margin-left: 50px;
+    }
+ }
