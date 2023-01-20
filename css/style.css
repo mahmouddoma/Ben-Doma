@@ -1,0 +1,65 @@
+:root {
+    --bg-face: #4267b2;
+    --bg-twitter: #1da1f2;
+    --bg-github: #171515;
+    --bg-linkedin: #0077b5;
+}
+
+body {
+    color: #fff;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.image img {
+    width: 150px;
+    border: 3px solid black;
+    box-shadow: 15px 10px 15px #52686f;
+}
+.facebook {
+    background-color: var(--bg-face);
+    padding: 15px 0;
+    width: 700px;
+    margin-left: 250px;
+    cursor: pointer;
+    box-shadow: 15px 10px 15px #77bad0;
+}
+.twitter {
+    background-color: var(--bg-twitter);
+    padding: 15px 0;
+    width: 700px;
+    margin-left: 250px;
+    cursor: pointer;
+    box-shadow: 15px 10px 15px #77bad0;
+
+}
+.instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );    
+    padding: 15px 0;
+    width: 700px;
+    margin-left: 250px;
+    cursor: pointer;
+    box-shadow: 15px 10px 15px #77bad0;
+}
+.github {
+    background-color: var(--bg-github);
+    padding: 15px 0;
+    width: 700px;
+    margin-left: 250px;
+    cursor: pointer;
+    box-shadow: 15px 10px 15px #77bad0;
+
+}
+.linkedin {
+    background-color: var(--bg-linkedin);
+    padding: 15px 0;
+    width: 700px;
+    margin-left: 250px;
+    cursor: pointer;
+    box-shadow: 15px 10px 15px #77bad0;
+
+}
