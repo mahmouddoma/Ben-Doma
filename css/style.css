@@ -24,14 +24,14 @@ body {
     padding: 15px 0;
     margin-left: 150px;
     cursor: pointer;
-    box-shadow: 15px 10px 15px #77bad0;
+    box-shadow: 15px 10px 15px #6c757d;
 }
 .twitter {
     background-color: var(--bg-twitter);
     padding: 15px 0;
     margin-left: 150px;
     cursor: pointer;
-    box-shadow: 15px 10px 15px #77bad0;
+    box-shadow: 15px 10px 15px #6c757d;
 
 }
 .instagram {
@@ -44,7 +44,7 @@ body {
     width: 700px;
     margin-left: 150px;
     cursor: pointer;
-    box-shadow: 15px 10px 15px #77bad0;
+    box-shadow: 15px 10px 15px #6c757d;
 }
 .github {
     background-color: var(--bg-github);
@@ -52,7 +52,7 @@ body {
     width: 700px;
     margin-left: 150px;
     cursor: pointer;
-    box-shadow: 15px 10px 15px #77bad0;
+    box-shadow: 15px 10px 15px #6c757d;
 
 }
 .linkedin {
@@ -61,8 +61,14 @@ body {
     width: 700px;
     margin-left: 150px;
     cursor: pointer;
-    box-shadow: 15px 10px 15px #77bad0;
-
+    box-shadow: 15px 10px 15px #6c757d;
+}
+.l-mail {
+    text-decoration: none;
+    color: #4267b2;
+}
+.l-mail:hover {
+    text-decoration: underline;
 }
 @media (max-width: 576px) { 
     .facebook,
@@ -72,4 +78,25 @@ body {
     .twitter {
         margin-left: 40px;
     }
+    .l-mail {
+        font-size: 15px;
+    }
+    .progress {
+        width: 200px;
+    }
+
  }
+
+ .progress {
+    position: relative;
+    height: 15px;
+    margin: 10px;
+ }
+ .progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: indianred;
+    transition: width 0.3s linear;
+}
